@@ -13,7 +13,8 @@ class ObjectAligner:
         self.nullObj = nullObj
 
     def align(self, objs1, objs2):
-        """
+        """@alessio: 1. translate in English; 2. verify the terminology (e.g. "cellette"-> ita:celle; eng:cells
+
         Allinea le due stringhe secondo l'algoritmo Needleman-Wunsch
         I due parametri objs1, objs2 sono le due stringhe da allineare. In particolare, objs2 è la stringa che viene posta "sopra" la matrice,
         objs1 è la stringa che viene posta alla sinistra della matrice.
