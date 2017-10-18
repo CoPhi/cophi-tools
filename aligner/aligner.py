@@ -42,7 +42,7 @@ class ObjectAligner:
         # Crea una riga di [0.0] lunga quant'è lunga la stringa in objs2. 
         # L'operazione viene ripetuta per quant'è lunga la objs1 (forma quindi tante righe per quante colonne sono necessarie)
         simMatrix = [[0.0] * len(objs2) for i in range(len(objs1))]  
-        matrix = [[0.0] * (len(objs2)+1) for i in range((len(objs1)+1))]  # crea la matrice "esterna"
+        matrix = [[0.0] * (len(objs2)+1) for i in range((len(objs1)+1))]
         for i in range(len(objs1)):
             """
             Per la lunghezza di objs1 (la stringa a sinistra della matrice), assegna un valore alla celletta di simMatrix.
